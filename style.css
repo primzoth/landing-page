@@ -1,0 +1,161 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+.header-bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    color: white;
+    flex-shrink: 0;
+}
+
+.hlogo {
+    display: flex;
+    font-weight: bold;
+    font-size: 20px;
+    align-items: center;
+    padding-left: 130px;
+}
+
+.headerlinks {
+    display: flex;
+    align-items: center;
+    padding-right: 130px;
+    font-size: 14px;
+    color: lightgrey;
+}
+
+.headerlinks > ul {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+    padding: 8px;
+}
+
+.hero-box {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    color: white;
+    gap: 16px;
+    padding: 20px;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 5px;
+}
+
+.herotitle {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.heropara {
+    color: lightgrey;
+    font-size: 14px;
+}
+
+.herobut {
+    font-size: 16px;
+    border-radius: 30px;
+    padding: 8px 12px;
+}
+
+.heroph{
+    font-size: 70px;
+    padding: 50px 100px;
+    margin: 20px;
+}
+
+.rand-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding: 55px;
+}
+
+.randtitle {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.randcards {
+    display: flex;
+    gap: 30px;
+}
+
+.randboxes {
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    text-align: center;
+}
+
+.randboxes > button {
+    font-size: 20px;
+    padding: 60px;
+}
+.quote-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: lightcoral;
+    color: black;
+    padding: 130px;
+    border-radius: 15px;
+}
+
+.qtext {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.qfrom {
+    font-weight: bold;
+    font-size: 16px;
+}
+.pop-up {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    color: white;
+    padding: 40px;
+    margin: 80px;
+    border-radius: 20px;
+}
+
+.poptitle {
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.rightpop {
+    display: flex;
+    align-items: center;
+}
+.popbut {
+    font-size: 20px;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+}
